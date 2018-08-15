@@ -24,7 +24,7 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-  
-  
-  
+  let newDrivers = drivers.slice();
+  newDrivers.pop(name);
+  return newDrivers;   
 }
